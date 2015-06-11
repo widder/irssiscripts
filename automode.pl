@@ -180,7 +180,7 @@ sub mode2letter
   } elsif ($mode eq "%") {
     return "h";
   }
-  return -1;
+  return;
 }
 
 
